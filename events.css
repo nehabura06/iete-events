@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 body {
   font-family: "Audiowide", sans-serif;
@@ -67,7 +67,8 @@ body {
 
 .event-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(2, 1fr)); */
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
   gap: 20px;
   justify-items: center;
   padding: 20px;
@@ -75,8 +76,8 @@ body {
 
 .event-card {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   border-radius: 20px;
   overflow: hidden;
   border: 5px solid #69aa9b;
@@ -139,7 +140,7 @@ body {
   background-color: #69aa9b;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .event-grid {
     grid-template-columns: 1fr;
   }
