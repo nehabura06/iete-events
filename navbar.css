@@ -1,5 +1,4 @@
 .navbar {
-<<<<<<< HEAD
   height: 5rem;
   position: sticky;
   top: 0;
@@ -114,8 +113,6 @@
 
   .nav-links.active + .hamburger #line3 {
     transform: rotate(-45deg) translate(7px, -7px) !important;
-  }
-=======
     height: 5rem;
     position: sticky;
     top: 0;
@@ -231,5 +228,4 @@
     .nav-links.active + .hamburger #line3 {
         transform: rotate(-45deg) translate(7px, -7px) !important;
     }
->>>>>>> 9a2ecbbd9282dfd770e018cff0895db15ef58dd6
 }
