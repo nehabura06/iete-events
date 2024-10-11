@@ -1,4 +1,4 @@
-// Scroll Animation 
+// Scroll Animation
 window.addEventListener("scroll", () => {
   const cards = document.querySelectorAll(".event-card");
   cards.forEach((card) => {
@@ -10,4 +10,3 @@ window.addEventListener("scroll", () => {
     }
   });
 });
-
