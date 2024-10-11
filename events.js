@@ -9,8 +9,5 @@ window.addEventListener("scroll", () => {
       card.style.transform = "translateY(50px)";
     }
   });
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 9a2ecbbd9282dfd770e018cff0895db15ef58dd6
+
